@@ -1,0 +1,182 @@
+* {
+    
+    text-decoration: none;
+}
+body {
+    margin-left: 375px;
+    background: #FFFFFF;
+    margin-right: 375px;
+    margin-top: 40px;
+    border: #FFFFFF;
+    
+}
+
+.header {
+    color: #000000;
+    font-family: "Gilroy";
+    font-style: bold;
+    font-size : 14px;
+    line-height: 16px;
+    text-align: right;
+    width: 1170px;
+    height: 17px;
+    justify-content: right;
+    padding-right: 14px;
+    vertical-align:top;
+    top: 373px;
+          
+    border: none;
+    
+
+
+   /* верхнее лого  */
+image__logo {    
+    width: 136.33px;
+    height: 40px;
+    
+}
+    
+        
+}
+.header__home {
+    color: #F25822;
+    font-family: "Gilroy";
+    font-style: medium;
+    font-size : 14px;
+    line-height: 16px;
+    border: none;
+    padding-right: 14px;
+    
+}
+
+.top__info {
+    
+    padding: 0px;
+    border: none;
+}
+
+/* Большое изображение */
+.imaging {
+   
+    padding: 0px;
+    position: relative;
+    width: 545px;
+    height: 375px;
+    top: -373px;
+    right: -765px;
+    
+    
+    
+
+}
+
+.text_h1 {
+    color: #000000;
+    font-family: "Inter";
+    font-style: bold;
+    font-weight:900;
+    width: 522px;
+    height: 222px;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+
+    
+}
+.text_h3 {
+    color: #888888;
+    font-family: "Gilroy";
+    font-style: medium;
+    width: 466px;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+
+    
+}
+
+.button_1 {
+    box-shadow: 4px 4px 8px 0px #F2582233;
+    background: var(--3-a-68-b-8, #F25822); 
+    color: #FFFFFF;
+    font-family: "Gilroy";
+    font-style: bold;
+    width: 140px;
+    height: 50px;
+    top: 16px;
+    left: -585px;
+    border-radius: 50px;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+    
+.button_2 {
+    color:  #AAAAAA;
+    width: 120px;
+    height: 19px; 
+    top: 31px;
+    left: 753px;
+    font-family: 'Gilroy';
+    font-style: bold;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 45px;
+    border: 0;
+    background: transparent;
+    white-space: nowrap;
+    
+    
+}
+
+
+/* лого снизу */
+.top__logo {
+    width: 1200px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+    top: -200px;
+    padding-right: 573px;
+    font-size: 14vw ;
+    position: relative;
+    left: 48px;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: bold;
+    src: url(font\gilroy-bold.ttf);
+  }
+  
+  @font-face {
+    font-family: 'Gilroy';
+    font-style: medium;
+    src: url(font\gilroy-medium.ttf);
+  }
+  
+  @font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    src: url(font\gilroy-semibold.ttf);
+
+
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style: bold;
+    src: url(font\Inter-Bold.otf);
+
+
+  }
+  
+  
